@@ -49,18 +49,21 @@ public class BuildingGrid : MonoBehaviour
             Debug.Log(hit.collider != null && hit.collider.gameObject.tag == "gridblock" && hit.collider.gameObject.tag == "colorboxwhite" && hit.collider.gameObject.tag == "colorboxblue" && hit.collider.gameObject.tag == "block");
             if (hit.collider.gameObject.tag == "gridblock")
             {
-                if (buildpick == "white")
+                if (hit.collider.gameObject.name == gameObject.name)
                 {
-                    Debug.Log("white build");
-                    Destroy(closestobject());
-                    Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y,-1), Quaternion.identity);
-                   
-                }
-                if (buildpick == "blue")
-                {
-                    Debug.Log("blue build");
-                    Destroy(closestobject());
-                    Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y,-1), Quaternion.identity);
+                    if (buildpick == "white")
+                    {
+                        Debug.Log("white build");
+                        Destroy(closestobject());
+                        Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -1), Quaternion.identity);
+
+                    }
+                    if (buildpick == "blue")
+                    {
+                        Debug.Log("blue build");
+                        Destroy(closestobject());
+                        Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -1), Quaternion.identity);
+                    }
                 }
             }
             if (hit.collider.tag == "colorboxwhite")
@@ -74,6 +77,13 @@ public class BuildingGrid : MonoBehaviour
                 buildpick = "blue";
                 Debug.Log(buildpick);
             }
+            //if (hit.collider.gameObject.tag == "block")
+            //{
+            //    if (hit.collider.gameObject.name == gameObject.name)
+            //    {
+            //        Destroy(gameObject);
+            //    }
+            //}//
         }
     }
 }
