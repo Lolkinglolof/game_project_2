@@ -9,6 +9,7 @@ public class BuildingGrid : MonoBehaviour
     private string buildpick = "white";
     public GameObject gridboxwhite;
     public GameObject gridboxblue;
+    public GameObject starterbox;
     GameObject closestobject()
     {
         float closestdistance = 100;
@@ -35,7 +36,7 @@ public class BuildingGrid : MonoBehaviour
     {
         if (gameObject.tag == "gridblock")
         {
-            Instantiate(gridboxwhite, new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,-1), Quaternion.identity);
+            Instantiate(starterbox, new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,-0.5f), Quaternion.identity);
         }
         
     }
@@ -55,14 +56,14 @@ public class BuildingGrid : MonoBehaviour
                     {
                         Debug.Log("white build");
                         Destroy(closestobject());
-                        Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -1), Quaternion.identity);
+                        Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
 
                     }
                     if (buildpick == "blue")
                     {
                         Debug.Log("blue build");
                         Destroy(closestobject());
-                        Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -1), Quaternion.identity);
+                        Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
                     }
                 }
             }
