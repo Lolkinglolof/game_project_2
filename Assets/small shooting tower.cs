@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class cointower : MonoBehaviour
 {
+    public float bullettime = 5;
     private float ShootTimer;
     public GameObject projectile;
     // Start is called before the first frame update
@@ -17,8 +18,9 @@ public class cointower : MonoBehaviour
     {
         if (ShootTimer >= 3)
         {
-
-            Instantiate(projectile, new Vector3(gameObject.transform.position.x + 0.5f, gameObject.transform.position.y, -0.3f), Quaternion.identity);
+            ShootTimer = 0;
+            GameObject ah = Instantiate(projectile, new Vector3(gameObject.transform.position.x + 0.5f, gameObject.transform.position.y, -0.6f), Quaternion.identity);
+            Destroy(ah,bullettime);
         }
         else
         {

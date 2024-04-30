@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4184291959404788396}
   - component: {fileID: 8289813634326850242}
   - component: {fileID: -5299699883552343485}
+  - component: {fileID: -3687534730581116358}
   m_Layer: 0
   m_Name: white box
   m_TagString: block
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.53, y: 0.84, z: -1}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-3687534730581116358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547073937373248531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f0e06c8a0c2bb4186079003d52a0e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
