@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class projectile1 : MonoBehaviour
 {
-    public float speed = 7.0f;
+    public float speed = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,5 @@ public class projectile1 : MonoBehaviour
     void Update()
     {
         transform.position += new Vector3(speed*Time.deltaTime,0);
-
     }
 }

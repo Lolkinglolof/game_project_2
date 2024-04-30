@@ -48,6 +48,8 @@ public class BuildingGrid : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Camera.main.transform.forward);
             Debug.Log(hit.collider != null && hit.collider.gameObject.tag == "gridblock" && hit.collider.gameObject.tag == "colorboxwhite" && hit.collider.gameObject.tag == "colorboxblue" && hit.collider.gameObject.tag == "block");
+            if (hit.collider == null)
+                return;
             if (hit.collider.gameObject.tag == "gridblock")
             {
                 if (hit.collider.gameObject.name == gameObject.name)

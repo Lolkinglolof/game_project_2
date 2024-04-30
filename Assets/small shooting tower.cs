@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class cointower : MonoBehaviour
 {
-    public float bullettime = 2.4f;
+    public float bullettime = 5;
     private float ShootTimer;
     public GameObject projectile;
     // Start is called before the first frame update
@@ -28,5 +28,4 @@ public class cointower : MonoBehaviour
             Debug.Log(ShootTimer);
         }
     }
-
 }
