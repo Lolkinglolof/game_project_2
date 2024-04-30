@@ -8,6 +8,12 @@ TagManager:
   - colorboxblue
   - colorboxwhite
   - gridblock
+  - 11
+  - 1,1,white
+  - Enemy
+  - PlayerLife
+  - EnemyProjectile
+
   layers:
   - Default
   - TransparentFX
