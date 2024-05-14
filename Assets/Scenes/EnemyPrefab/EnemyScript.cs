@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    float AttackCooldown = 0;
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,22 @@ public class EnemyScript : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(-1, 0);
+        
+        
+            AttackCooldown += Time.deltaTime;
+        
     }
-    public void OnCollisionEnter2D(Collision2D collision);
 
+    public void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("block"))
+        {
+            if (AttackCooldown >= 3)
+            {
+                cointower cotoersiot = collision.collider.gameObject.GetComponent<cointower>();
+                cotoersiot.health -= 1;
+                AttackCooldown = 0;
+            }
+        }
+    }
 }
