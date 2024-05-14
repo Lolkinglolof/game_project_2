@@ -10,6 +10,7 @@ public class BuildingGrid : MonoBehaviour
     public GameObject gridboxwhite;
     public GameObject gridboxblue;
     public GameObject starterbox;
+    public static float Cash = 20;
     GameObject closestobject()
     {
         float closestdistance = 100;
@@ -38,7 +39,7 @@ public class BuildingGrid : MonoBehaviour
         {
             Instantiate(starterbox, new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,-0.5f), Quaternion.identity);
         }
-        
+        buildpick = null;
     }
 
     // Update is called once per frame
@@ -54,19 +55,27 @@ public class BuildingGrid : MonoBehaviour
             {
                 if (hit.collider.gameObject.name == gameObject.name)
                 {
-                    if (buildpick == "white")
+                    if (Cash >= 10)
                     {
-                        Debug.Log("white build");
-                        Destroy(closestobject());
-                        Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
-
+                        if (buildpick == "white")
+                        {
+                            Debug.Log("white build");
+                            Destroy(closestobject());
+                            Instantiate(gridboxwhite, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
+                            buildpick = null;
+                        }
                     }
-                    if (buildpick == "blue")
+                    if (Cash >= 15)
                     {
-                        Debug.Log("blue build");
-                        Destroy(closestobject());
-                        Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
+                        if (buildpick == "blue")
+                        {
+                            Debug.Log("blue build");
+                            Destroy(closestobject());
+                            Instantiate(gridboxblue, new Vector3(hit.collider.gameObject.transform.position.x, hit.collider.gameObject.transform.position.y, -0.5f), Quaternion.identity);
+                            buildpick = null;
+                        }
                     }
+                    
                 }
             }
             if (hit.collider.tag == "colorboxwhite")

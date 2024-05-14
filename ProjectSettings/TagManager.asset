@@ -8,6 +8,8 @@ TagManager:
   - colorboxblue
   - colorboxwhite
   - gridblock
+  - Undefined
+  - Projectile
   layers:
   - Default
   - TransparentFX

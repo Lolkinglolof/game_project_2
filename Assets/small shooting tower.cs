@@ -25,7 +25,7 @@ public class cointower : MonoBehaviour
         else
         {
             ShootTimer += Time.deltaTime;
-            Debug.Log(ShootTimer);
+            //Debug.Log(ShootTimer);
         }
     }
 }
