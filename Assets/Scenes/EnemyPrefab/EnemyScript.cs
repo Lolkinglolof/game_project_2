@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class EnemyScript : MonoBehaviour
         {
             if (AttackCooldown >= 3)
             {
-                cointower cotoersiot = collision.collider.gameObject.GetComponent<cointower>();
+                TowerHealthScript cotoersiot = collision.collider.gameObject.GetComponent<TowerHealthScript>();
                 cotoersiot.health -= 1;
                 AttackCooldown = 0;
             }
