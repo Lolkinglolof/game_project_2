@@ -7,21 +7,21 @@ public class WaveManager : MonoBehaviour
 {
 
     
-    public WaveData[] waves; // Array of WaveData objects defining the waves
+    public WaveData[] waves; 
     public GameObject[] enemySpawnPoints; // Array of GameObjects representing enemy spawn points
-    //public float totalSpawnWeight = 1.0f; // Total spawn weight for weighted enemy selection
+    
     public EnemyData[] enemies;
     private List<float> spawnProbabilities; // Calculated spawn probabilities based on weights
-    private int currentWaveIndex = 0; // Tracks the currently running wave index (added)  // This line is added
+    private int currentWaveIndex = 0; 
     private int spawnedEnemies = 0; // Track spawned enemies for current wave (added)
-    private int killCount = 0; // Track enemy kills for current wave (added) // This line is added
-    //public int requiredKillsPerWave; // Public variable for required kills per wave (Option 1)
+    private int killCount = 0; 
+   
     public WaveChangedEvent waveChangedEvent; // Public event to signal wave change
-    public static WaveManager instance; // Public static instance
+    public static WaveManager instance; 
     private static WaveManager _instance;
-    private WaveData loadedWaveData; // Declare a variable to hold the instance
-    public TextMeshProUGUI waveNumberText; // Reference to TextMesh Pro UI element
-    public TextMeshProUGUI killCountText; // Reference to TextMesh Pro UI element for kill count
+    private WaveData loadedWaveData; 
+    public TextMeshProUGUI waveNumberText; 
+    public TextMeshProUGUI killCountText; 
     
     private void Awake()
     {
@@ -69,13 +69,13 @@ public class WaveManager : MonoBehaviour
             spawnedEnemies++;
         }
 
-        // Handle wave completion (you can add logic here, e.g., display wave complete message, start next wave)
+        
         Debug.Log("Wave " + wave.waveName + " completed!");
     }
 
     private EnemyData ChooseRandomEnemyData(List<EnemyData> enemyData)
     {
-        // Implement weighted random selection logic here (assuming you copied this method from EnemySpawnManager)
+        
         float randomValue = Random.value;
         float cumulativeWeight = 0.0f;
 
@@ -92,14 +92,14 @@ public class WaveManager : MonoBehaviour
         return enemyData[enemyData.Count - 1];
     }
 
-    public void CalculateSpawnProbabilities() // Made public (Option 2, less preferred)
+    public void CalculateSpawnProbabilities() 
     {
         spawnProbabilities = new List<float>();
 
         float currentWeight = 0.0f;
         foreach (EnemyData enemy in enemies)
         {
-            // Ensure weighting is positive and does not exceed the total
+            
             float weight = enemy.spawnWeight; // Use enemy's individual spawnWeight directly
             currentWeight += weight;
             spawnProbabilities.Add(weight);
