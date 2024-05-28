@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cointower : MonoBehaviour
+public class SmallShootingTower : MonoBehaviour
 {
     public float health = 2;
     public float bullettime = 5;
