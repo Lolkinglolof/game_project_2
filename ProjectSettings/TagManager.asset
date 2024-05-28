@@ -13,12 +13,12 @@ TagManager:
   - Enemy
   - PlayerLife
   - EnemyProjectile
-
+  - collectorGreen
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - DonotIgnore
   - Water
   - UI
   - 

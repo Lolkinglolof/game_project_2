@@ -34,10 +34,7 @@ public class BuildingGrid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (gameObject.tag == "gridblock")
-        {
-            Instantiate(starterbox, new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,-0.5f), Quaternion.identity);
-        }
+      
         
     }
 
