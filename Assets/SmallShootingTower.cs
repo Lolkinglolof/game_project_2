@@ -26,7 +26,6 @@ public class SmallShootingTower : MonoBehaviour
         else
         {
             ShootTimer += Time.deltaTime;
-            Debug.Log(ShootTimer);
         }
     }
 }

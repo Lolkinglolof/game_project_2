@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -26,12 +27,25 @@ public class EnemyScript : MonoBehaviour
     {
         if (collision.collider.CompareTag("block"))
         {
-            if (AttackCooldown >= 3)
+            if (collision.collider.gameObject.name == "blue box")
             {
-                cointower cotoersiot = collision.collider.gameObject.GetComponent<cointower>();
-                cotoersiot.health -= 1;
-                AttackCooldown = 0;
+                if (AttackCooldown >= 3)
+                {
+                    CoinTower cotoersiot = collision.collider.gameObject.GetComponent<CoinTower>();
+                    cotoersiot.health -= 1;
+                    AttackCooldown = 0;
+                }
+            }
+            if (collision.collider.gameObject.name == "blue box")
+            {
+                if (AttackCooldown >= 3)
+                {
+                    SmallShootingTower cotoersiot = collision.collider.gameObject.GetComponent<SmallShootingTower>();
+                    cotoersiot.health -= 1;
+                    AttackCooldown = 0;
+                }
             }
         }
+
     }
 }

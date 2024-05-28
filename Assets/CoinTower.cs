@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CoinTower : MonoBehaviour
 {
+    public float health;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,9 @@ public class CoinTower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (health <= 0)
+        {
+            Object.Destroy(gameObject);
+        }
     }
 }
