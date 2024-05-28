@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
     }
     public void StarGame()
     {
-        SceneManager.LoadScene("Game");
+        //SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

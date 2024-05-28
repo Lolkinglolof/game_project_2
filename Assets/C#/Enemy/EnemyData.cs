@@ -6,7 +6,7 @@ public class EnemyData : ScriptableObject
     public List<EnemyDetails> enemyDetailsList = new List<EnemyDetails>();
     public float spawnWeight = 1.0f;
     
-    private EnemySpawnManager spawnManager; // Reference to the EnemySpawnManager
+    private EnemySpawnManager spawnManager; 
     [System.Serializable]
     public struct EnemyDetails
     {
@@ -14,12 +14,11 @@ public class EnemyData : ScriptableObject
         public float health;
         public float damage;
         public float movementSpeed;
-        //public string enemyTag; // Add the enemyTag property
-        // Add other enemy properties as needed (e.g., attack range, attack rate)
+      
     }
     void Start()
     {
-        // Find the EnemySpawnManager in the scene (assuming there's only one)
+        
         spawnManager = FindObjectOfType<EnemySpawnManager>();
 
         if (spawnManager == null)
@@ -28,7 +27,7 @@ public class EnemyData : ScriptableObject
         }
         else
         {
-            // Register with the EnemySpawnManager (assuming you have a RegisterEnemyData method)
+          
             spawnManager.RegisterEnemyData(this);
         }
     }
@@ -36,7 +35,7 @@ public class EnemyData : ScriptableObject
 
     void OnDestroy()
     {
-        // If the EnemyData gets destroyed, unregister itself from the manager
+
         if (spawnManager != null)
         {
             spawnManager.UnregisterEnemyData(this);
