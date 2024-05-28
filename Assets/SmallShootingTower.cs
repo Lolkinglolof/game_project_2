@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SmallShootingTower : MonoBehaviour
 {
-    public float health = 2;
     public float bullettime = 5;
     private float ShootTimer;
     public GameObject projectile;
