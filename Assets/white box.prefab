@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -5662760313324392694}
   m_Layer: 0
   m_Name: white box
-  m_TagString: colorboxwhite
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,6 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19ae7ed2d5f6214bafa9d8e570047f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
   bullettime: 5
   projectile: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
