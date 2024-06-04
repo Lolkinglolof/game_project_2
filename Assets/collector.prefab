@@ -11,18 +11,13 @@ GameObject:
   - component: {fileID: 4184291959404788396}
   - component: {fileID: 8289813634326850242}
   - component: {fileID: -5299699883552343485}
-<<<<<<< Updated upstream
-  - component: {fileID: -3687534730581116358}
-  m_Layer: 3
-=======
   - component: {fileID: -5015510646047986393}
-  - component: {fileID: 3899223783983872410}
+  - component: {fileID: 8286883158887770574}
   - component: {fileID: 7491282266430430712}
   m_Layer: 6
->>>>>>> Stashed changes
-  m_Name: white box
+  m_Name: collector
   m_TagString: block
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -36,11 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.53, y: 0.84, z: -1}
-<<<<<<< Updated upstream
-  m_LocalScale: {x: 4, y: 4, z: 1}
-=======
   m_LocalScale: {x: 6, y: 6, z: 1}
->>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -142,11 +133,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36369294, y: 0.63765836}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream
---- !u!114 &-3687534730581116358
-=======
 --- !u!114 &-5015510646047986393
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,21 +142,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1547073937373248531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: 20f0e06c8a0c2bb4186079003d52a0e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-=======
   m_Script: {fileID: 11500000, guid: b79c2cd7dc909a640a835d10201f175b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 30
   damageInterval: 5
   enemyInRange: 0
-  towerDefence1: 4
-  towerDefence2: 8
---- !u!114 &3899223783983872410
+  towerDefence1: 3
+  towerDefence2: 4.53
+--- !u!114 &8286883158887770574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,21 +159,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1547073937373248531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c7a96a4b395f6a4e93d9dbda2ac0608, type: 3}
+  m_Script: {fileID: 11500000, guid: b2d94e51fb6342f48aab2ae18904b249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 7491282266430430712}
-  attackDamage1: 5
-  attackDamage2: 10
-  critialDamage: 30
-  attackCooldown: 1
-  bonusChance: 0.1
-  swordTransform: {fileID: 4184291959404788396}
-  EnemieLayers:
-    serializedVersion: 2
-    m_Bits: 8
-  swordRange: 1.2
-  canAttack: 1
+  mudPrefab: {fileID: 8969438230683451344, guid: 6fddd59f1d7199b49aa1a4794c8124b8, type: 3}
+  launchPoint: {fileID: 4184291959404788396}
+  launchForce: 15
+  reloadMudShotTime: 3
+  mudRangeFire: 15
+  mudRangeDistanceFireLimit: 15
+  mudDamageArea: 2
+  mudDamage1: 5
+  mudDamage2: 15
 --- !u!95 &7491282266430430712
 Animator:
   serializedVersion: 5
@@ -214,4 +192,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> Stashed changes

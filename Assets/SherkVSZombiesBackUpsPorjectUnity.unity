@@ -192,7 +192,11 @@ GameObject:
   - component: {fileID: 75255773}
   - component: {fileID: 75255772}
   - component: {fileID: 75255771}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (12)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -211,9 +215,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &75255772
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -285,7 +301,11 @@ GameObject:
   - component: {fileID: 87446421}
   - component: {fileID: 87446420}
   - component: {fileID: 87446419}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (19)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -304,9 +324,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &87446420
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -512,7 +544,11 @@ GameObject:
   - component: {fileID: 166547887}
   - component: {fileID: 166547886}
   - component: {fileID: 166547885}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (22)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -531,9 +567,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &166547886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -980,7 +1028,10 @@ GameObject:
   - component: {fileID: 323237357}
   - component: {fileID: 323237356}
   - component: {fileID: 323237355}
+<<<<<<< Updated upstream
   - component: {fileID: 323237359}
+=======
+>>>>>>> Stashed changes
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1083,8 +1134,11 @@ RectTransform:
   - {fileID: 1434465045}
   - {fileID: 139141626}
   - {fileID: 246936978}
+<<<<<<< Updated upstream
   - {fileID: 794959165}
   - {fileID: 1893745307}
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1092,6 +1146,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< Updated upstream
 --- !u!114 &323237359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,6 +1159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae75b83544db06f4498f363424dcd214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!1 &363598385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,7 +1172,11 @@ GameObject:
   - component: {fileID: 363598388}
   - component: {fileID: 363598387}
   - component: {fileID: 363598386}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (3)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -1134,9 +1195,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &363598387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1417,7 +1490,11 @@ GameObject:
   - component: {fileID: 557073122}
   - component: {fileID: 557073121}
   - component: {fileID: 557073120}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (21)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -1436,9 +1513,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &557073121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1541,7 +1630,11 @@ GameObject:
   - component: {fileID: 570804129}
   - component: {fileID: 570804128}
   - component: {fileID: 570804127}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (1)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -1560,9 +1653,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &570804128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1664,9 +1769,15 @@ GameObject:
   m_Component:
   - component: {fileID: 690163691}
   - component: {fileID: 690163690}
+<<<<<<< Updated upstream
   - component: {fileID: 690163692}
   - component: {fileID: 690163694}
   - component: {fileID: 690163695}
+=======
+  - component: {fileID: 690163693}
+  - component: {fileID: 690163692}
+  - component: {fileID: 690163694}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: PlayerLife
   m_TagString: Player
@@ -1786,6 +1897,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0.34
+<<<<<<< Updated upstream
+=======
+--- !u!114 &690163693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690163689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461321b9be7dfbe4bb9a5c08eee9829b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 3
+  lifeImages:
+  - {fileID: 1287627935}
+  - {fileID: 1579158140}
+  - {fileID: 1396923869}
+  gameOverMenu: {fileID: 1438557756}
+  coinManager: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!50 &690163694
 Rigidbody2D:
   serializedVersion: 4
@@ -1805,7 +1938,11 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
+<<<<<<< Updated upstream
     m_Bits: 0
+=======
+    m_Bits: 4294967295
+>>>>>>> Stashed changes
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1813,6 +1950,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+<<<<<<< Updated upstream
 --- !u!114 &690163695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,6 +2055,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &721448483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +2068,11 @@ GameObject:
   - component: {fileID: 721448486}
   - component: {fileID: 721448485}
   - component: {fileID: 721448484}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (16)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -1947,9 +2091,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &721448485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2085,6 +2241,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream
 --- !u!1 &794959164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,6 +2376,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794959164}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &798190824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2411,7 +2570,11 @@ GameObject:
   - component: {fileID: 1031998496}
   - component: {fileID: 1031998495}
   - component: {fileID: 1031998494}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (8)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -2430,9 +2593,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1031998495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2714,7 +2889,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171344791}
+<<<<<<< Updated upstream
   - component: {fileID: 1171344792}
+=======
+  - component: {fileID: 1171344790}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: 'CoinManager '
   m_TagString: Untagged
@@ -2722,6 +2901,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1171344790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171344789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61e43b08a4a85149b461e98f52fe9b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCoins: 0
+  playerStarterCoins: 300
+  coinsText: {fileID: 1294874520}
+>>>>>>> Stashed changes
 --- !u!4 &1171344791
 Transform:
   m_ObjectHideFlags: 0
@@ -2737,6 +2934,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1171344792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,6 +2950,8 @@ MonoBehaviour:
   currencyCoins: 0
   currencyDisplay: {fileID: 1294874520}
   currencySaved: $
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1171900147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2835,9 +3035,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 323237359}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: StarGame
+=======
+      - m_Target: {fileID: 690163693}
+        m_TargetAssemblyTypeName: PlayerLife, Assembly-CSharp
+        m_MethodName: ResetGame
+>>>>>>> Stashed changes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2894,7 +3100,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176127683}
+<<<<<<< Updated upstream
   - component: {fileID: 1176127684}
+=======
+  - component: {fileID: 1176127682}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: WaveManager
   m_TagString: Untagged
@@ -2902,6 +3112,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1176127682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176127681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eef045f291ca8347b0f7666ca355345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!4 &1176127683
 Transform:
   m_ObjectHideFlags: 0
@@ -2917,6 +3142,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1176127684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2942,6 +3168,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a0b7efc08faa86544a2c9ac8619b14ac, type: 2}
   waveNumberText: {fileID: 794959166}
   killCountText: {fileID: 1893745308}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1182446988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2953,7 +3181,11 @@ GameObject:
   - component: {fileID: 1182446991}
   - component: {fileID: 1182446990}
   - component: {fileID: 1182446989}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (5)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -2972,9 +3204,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1182446990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3046,7 +3290,11 @@ GameObject:
   - component: {fileID: 1193796342}
   - component: {fileID: 1193796341}
   - component: {fileID: 1193796340}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (24)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -3065,9 +3313,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1193796341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3139,7 +3399,11 @@ GameObject:
   - component: {fileID: 1196552260}
   - component: {fileID: 1196552259}
   - component: {fileID: 1196552258}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (13)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -3158,9 +3422,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1196552259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3307,7 +3583,11 @@ GameObject:
   - component: {fileID: 1212920514}
   - component: {fileID: 1212920513}
   - component: {fileID: 1212920512}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (6)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -3326,9 +3606,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1212920513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3421,9 +3713,15 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 323237358}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 864.828, y: -124}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 864.828, y: 676}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1287627934
@@ -3454,7 +3752,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 0ff608efdcbd6204aa1c83f1ffdb2b7a, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: eccd2fc6f491ab8488bfd23ae0ef504d, type: 3}
+>>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3475,7 +3777,11 @@ GameObject:
   - component: {fileID: 1294213942}
   - component: {fileID: 1294213941}
   - component: {fileID: 1294213940}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (14)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -3494,9 +3800,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1294213941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3595,7 +3913,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: 0$
+=======
+  m_text: New Text
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3702,7 +4024,11 @@ GameObject:
   - component: {fileID: 1297899677}
   - component: {fileID: 1297899676}
   - component: {fileID: 1297899675}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (11)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -3721,9 +4047,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1297899676
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3891,9 +4229,15 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 323237358}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 1171, y: -124}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1171, y: 676}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1396923868
@@ -3924,7 +4268,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 0ff608efdcbd6204aa1c83f1ffdb2b7a, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: eccd2fc6f491ab8488bfd23ae0ef504d, type: 3}
+>>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4079,7 +4427,11 @@ GameObject:
   - component: {fileID: 1438129067}
   - component: {fileID: 1438129066}
   - component: {fileID: 1438129065}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (23)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -4098,9 +4450,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1438129066
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4663,9 +5027,15 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 323237358}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 1014.78796, y: -124}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1014.78796, y: 676}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1579158139
@@ -4696,7 +5066,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 0ff608efdcbd6204aa1c83f1ffdb2b7a, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: eccd2fc6f491ab8488bfd23ae0ef504d, type: 3}
+>>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4717,7 +5091,11 @@ GameObject:
   - component: {fileID: 1588729559}
   - component: {fileID: 1588729558}
   - component: {fileID: 1588729557}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (17)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -4736,9 +5114,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1588729558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4810,7 +5200,11 @@ GameObject:
   - component: {fileID: 1614663759}
   - component: {fileID: 1614663758}
   - component: {fileID: 1614663757}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (2)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -4829,9 +5223,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1614663758
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4903,7 +5309,11 @@ GameObject:
   - component: {fileID: 1666368192}
   - component: {fileID: 1666368191}
   - component: {fileID: 1666368190}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (20)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -4922,9 +5332,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1666368191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4994,7 +5416,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1671329972}
+<<<<<<< Updated upstream
   - component: {fileID: 1671329973}
+=======
+  - component: {fileID: 1671329971}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -5002,6 +5428,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1671329971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671329970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ddb44ea82456e4ca3128c901ed55ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 3216226618133922464, guid: 66a74249cc5435e4d8f93b319e2f7b7a, type: 3}
+  - {fileID: 3216226618133922464, guid: eca473dbd76d0854d84465243bc42890, type: 3}
+  spawnPoints:
+  - {fileID: 621286232}
+  - {fileID: 893626022}
+  - {fileID: 562802198}
+  - {fileID: 275167160}
+  minSpawnTime: 5
+  maxSpawnTime: 10
+>>>>>>> Stashed changes
 --- !u!4 &1671329972
 Transform:
   m_ObjectHideFlags: 0
@@ -5021,6 +5472,7 @@ Transform:
   - {fileID: 275167160}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &1671329973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5042,6 +5494,8 @@ MonoBehaviour:
   - {fileID: 275167159}
   registeredEnemyData:
   - {fileID: 11400000, guid: 6d2ec17e5d3f96a4b9c3d2ddbaa93e03, type: 2}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1754954352
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,7 +5507,11 @@ GameObject:
   - component: {fileID: 1754954355}
   - component: {fileID: 1754954354}
   - component: {fileID: 1754954353}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (10)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5072,9 +5530,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1754954354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5214,7 +5684,11 @@ GameObject:
   - component: {fileID: 1773106262}
   - component: {fileID: 1773106261}
   - component: {fileID: 1773106260}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (18)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5233,9 +5707,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1773106261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5362,7 +5848,11 @@ SpriteRenderer:
   m_Size: {x: 14, y: 6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 0
+=======
+  m_WasSpriteAssigned: 1
+>>>>>>> Stashed changes
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1776545335
@@ -5521,7 +6011,11 @@ GameObject:
   - component: {fileID: 1855258551}
   - component: {fileID: 1855258550}
   - component: {fileID: 1855258549}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (7)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5540,9 +6034,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1855258550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5603,6 +6109,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 16171855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1893745306
 GameObject:
   m_ObjectHideFlags: 0
@@ -5737,6 +6244,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893745306}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1922272285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5823,7 +6332,11 @@ GameObject:
   - component: {fileID: 1985388150}
   - component: {fileID: 1985388149}
   - component: {fileID: 1985388148}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (15)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5842,9 +6355,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &1985388149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5916,7 +6441,11 @@ GameObject:
   - component: {fileID: 2013624364}
   - component: {fileID: 2013624363}
   - component: {fileID: 2013624362}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (4)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5935,9 +6464,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &2013624363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6143,7 +6684,11 @@ GameObject:
   - component: {fileID: 2110906690}
   - component: {fileID: 2110906689}
   - component: {fileID: 2110906688}
+<<<<<<< Updated upstream
   m_Layer: 0
+=======
+  m_Layer: 7
+>>>>>>> Stashed changes
   m_Name: square (9)
   m_TagString: gridblock
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -6162,9 +6707,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea801dd512fb11b4d92d08e89b43de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
   gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
   starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+=======
+  buildpick: white
+  gridboxwhite: {fileID: 1547073937373248531, guid: fbd55d6912a3499478be28df5cb6439e, type: 3}
+  gridboxblue: {fileID: 1817578706577791486, guid: 4a5ec634dfaa9a54a942d7c7dfdd094b, type: 3}
+  coinsCollecter: {fileID: 1547073937373248531, guid: 6574c285bf8172741a5637039be412c2, type: 3}
+  starterbox: {fileID: 4246014732995996674, guid: dc2435fe444a2e14e8345e19bef0bcae, type: 3}
+  coinManager: {fileID: 1171344790}
+  itemCost: 50.5
+  itemCost2: 10
+  itemCost3: 156.5
+>>>>>>> Stashed changes
 --- !u!61 &2110906689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6238,4 +6795,7 @@ SceneRoots:
   - {fileID: 1176127683}
   - {fileID: 690163691}
   - {fileID: 1171344791}
+<<<<<<< Updated upstream
   - {fileID: 717773843}
+=======
+>>>>>>> Stashed changes

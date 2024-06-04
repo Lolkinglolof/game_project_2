@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1547073937373248531
+--- !u!1 &3216226618133922464
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4184291959404788396}
-  - component: {fileID: 8289813634326850242}
-  - component: {fileID: -5299699883552343485}
-<<<<<<< Updated upstream
-  - component: {fileID: -3687534730581116358}
+  - component: {fileID: 679029177531396437}
+  - component: {fileID: 5248567433565696445}
+  - component: {fileID: 904641981917565051}
+  - component: {fileID: 1717673490860763478}
+  - component: {fileID: 1570293664615141070}
+  - component: {fileID: -6433899059655215718}
+  - component: {fileID: 1362360949618481910}
+  - component: {fileID: -429436979516187408}
   m_Layer: 3
-=======
-  - component: {fileID: -5015510646047986393}
-  - component: {fileID: 3899223783983872410}
-  - component: {fileID: 7491282266430430712}
-  m_Layer: 6
->>>>>>> Stashed changes
-  m_Name: white box
-  m_TagString: block
+  m_Name: Farmer 1
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4184291959404788396
+--- !u!4 &679029177531396437
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
+  m_GameObject: {fileID: 3216226618133922464}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.53, y: 0.84, z: -1}
-<<<<<<< Updated upstream
-  m_LocalScale: {x: 4, y: 4, z: 1}
-=======
-  m_LocalScale: {x: 6, y: 6, z: 1}
->>>>>>> Stashed changes
+  m_LocalPosition: {x: 14.2, y: -0.11, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8289813634326850242
+--- !u!212 &5248567433565696445
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
+  m_GameObject: {fileID: 3216226618133922464}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -86,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6d9e0307ed73bf84a9950def4a4245ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68446fcd101e25040b4e266f9b073e18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,22 +90,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-5299699883552343485
-BoxCollider2D:
+--- !u!60 &904641981917565051
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
+  m_GameObject: {fileID: 3216226618133922464}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 257
+    m_Bits: 9
   m_LayerOverridePriority: 1
   m_ForceSendLayers:
     serializedVersion: 2
@@ -129,81 +122,106 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1325641, y: -0.013256371}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.99, y: 0.77}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.36369294, y: 0.63765836}
-  m_EdgeRadius: 0
-<<<<<<< Updated upstream
---- !u!114 &-3687534730581116358
-=======
---- !u!114 &-5015510646047986393
->>>>>>> Stashed changes
-MonoBehaviour:
+  m_Points:
+    m_Paths:
+    - - {x: 0.074999996, y: 0.345}
+      - {x: -0.085, y: 0.345}
+      - {x: -0.155, y: 0.175}
+      - {x: -0.265, y: 0.005}
+      - {x: -0.39499998, y: -0.015}
+      - {x: -0.39499998, y: -0.16499999}
+      - {x: -0.114999995, y: -0.16499999}
+      - {x: -0.074999996, y: -0.355}
+      - {x: 0.085, y: -0.355}
+      - {x: 0.175, y: -0.16499999}
+      - {x: 0.175, y: 0.105}
+      - {x: 0.13499999, y: 0.235}
+  m_UseDelaunayMesh: 0
+--- !u!50 &1717673490860763478
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: 20f0e06c8a0c2bb4186079003d52a0e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-=======
-  m_Script: {fileID: 11500000, guid: b79c2cd7dc909a640a835d10201f175b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  damageInterval: 5
-  enemyInRange: 0
-  towerDefence1: 4
-  towerDefence2: 8
---- !u!114 &3899223783983872410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c7a96a4b395f6a4e93d9dbda2ac0608, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 7491282266430430712}
-  attackDamage1: 5
-  attackDamage2: 10
-  critialDamage: 30
-  attackCooldown: 1
-  bonusChance: 0.1
-  swordTransform: {fileID: 4184291959404788396}
-  EnemieLayers:
+  m_GameObject: {fileID: 3216226618133922464}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 8
-  swordRange: 1.2
-  canAttack: 1
---- !u!95 &7491282266430430712
+    m_Bits: 4096
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 265
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1570293664615141070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216226618133922464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5faa2e9a12ed97743b61a497912a14d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animiator: {fileID: 1362360949618481910}
+  health: 35
+  movementSpeed: 160
+  minDamage: 4
+  maxDamage: 15.5
+  attackRange: 0.5
+  defence1: 3
+  defence2: 4
+  coinDrop: {fileID: -429436979516187408}
+  damageInterval: 2
+--- !u!114 &-6433899059655215718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216226618133922464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0deec33e5040aaa42898a913bf8dda75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatToCollideWith:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!95 &1362360949618481910
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547073937373248531}
+  m_GameObject: {fileID: 3216226618133922464}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7fe289ce71e3bba48abd928e44021804, type: 2}
+  m_Controller: {fileID: 9100000, guid: 179be6949cfc7ca45aec6282128f21d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -214,4 +232,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> Stashed changes
+--- !u!114 &-429436979516187408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216226618133922464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286fa897c0c05d3448e32a7aaa639315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minCoinDrop: 20
+  maxCoinDrop: 65
+  dropChance: 0.5

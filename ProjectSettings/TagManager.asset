@@ -8,21 +8,33 @@ TagManager:
   - colorboxblue
   - colorboxwhite
   - gridblock
+<<<<<<< Updated upstream
   - 11
   - 1,1,white
   - Enemy
   - PlayerLife
   - EnemyProjectile
   - collectorGreen
+=======
+  - WallBoundry
+  - Enemy
+  - collectorGreen
+  - Undefined
+  - bullet
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< Updated upstream
   - DonotIgnore
+=======
+  - EnemieLayers
+>>>>>>> Stashed changes
   - Water
   - UI
-  - 
-  - 
+  - TowerDefencer
+  - BuildingGrunds
   - 
   - 
   - 
